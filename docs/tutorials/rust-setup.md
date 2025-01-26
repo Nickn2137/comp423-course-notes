@@ -3,16 +3,17 @@
 * Primary author: [Nicholas Nguyen](https://github.com/Nickn2137)
 * Reviewer: [Logan Gatza](https://github.com/lrgatza)
 
-Welcome to this step-by-step guide for setting up a Rust project in a Dev Container! Hopefull by the end of this tutorial you'll have a fully functional Rust development environment and a simple Rust program!
+Welcome to this step-by-step guide for setting up a Rust project in a Dev Container! Hopefully by the end of this tutorial you'll have a fully functional Rust development environment and a simple Rust program!
 
 ## **Prerequisites**
 ---
 
-!!! note "Before we begin, make sure you have:"
-    1. **Git installed:** [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don't already have it.
-    - **Visual Studio Code(VS Code):** Download and install it from [here](https://code.visualstudio.com/).
-    - **Docker installed:** Required to run the dev container. [Get Docker here](https://www.docker.com/products/docker-desktop). 
-    - **Command-line basics:** Basic knowledge of terminal commands and Git.
+!!! note "Required tools"
+    Before we begin, make sure you have the following:
+1. **Git installed:** [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don't already have it.
+- **Visual Studio Code(VS Code):** Download and install it from [here](https://code.visualstudio.com/).
+- **Docker installed:** Required to run the dev container. [Get Docker here](https://www.docker.com/products/docker-desktop). 
+- **Command-line basics:** Basic knowledge of terminal commands and Git.
 
 ## **Set-Up Guide**
 ---
@@ -123,3 +124,8 @@ Congratulations! 🎉 You've successfully set up a Rust development environment 
 
 !!! tip "Next Steps" 
     - Experiment with Rust features like modules, traits, and ownership. - Try using cargo test to write and run unit tests.
+
+### Sources
+
+- [423 MkDocs Tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/#understanding-your-cicd-workflow)
+- [Rust Documentation](https://doc.rust-lang.org/rust-by-example/hello.html)
