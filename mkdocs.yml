@@ -4,6 +4,9 @@ theme:
   highlightks: true
   palette:
     scheme: default
+  features:
+    - content.code.select
+    - content.code.copy
   
 markdown_extensions:
   - pymdownx.highlight:
