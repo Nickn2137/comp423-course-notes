@@ -1,3 +1,15 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
+  highlightks: true
+  palette:
+    scheme: default
+  
+markdown_extensions:
+  - pymdownx.highlight:
+    anchor_linenums: true
+    line_spanes: __span
+    pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
