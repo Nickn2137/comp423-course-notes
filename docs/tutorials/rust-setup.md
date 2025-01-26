@@ -1,5 +1,4 @@
 # **Setting up a dev container for Rust:**
-
 Welcome to this step-by-step guide for setting up a Rust project in a Dev Container! Hopefully by the end of this tutorial you'll have a fully functional Rust development environment and a simple Rust program!
 
 * Primary author: [Nicholas Nguyen](https://github.com/Nickn2137)
