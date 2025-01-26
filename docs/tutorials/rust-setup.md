@@ -1,4 +1,4 @@
-# **Setting up a dev container for Rust:**
+# **Setting up a dev container for Rust**
 
 * Primary author: [Nicholas Nguyen](https://github.com/Nickn2137)
 * Reviewer: [Logan Gatza](https://github.com/lrgatza)
@@ -125,7 +125,7 @@ Congratulations! 🎉 You've successfully set up a Rust development environment 
 !!! tip "Next Steps" 
     - Experiment with Rust features like modules, traits, and ownership. - Try using cargo test to write and run unit tests.
 
-### Sources
+## **Sources**
 
 - [423 MkDocs Tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/#understanding-your-cicd-workflow)
 - [Rust Documentation](https://doc.rust-lang.org/rust-by-example/hello.html)
