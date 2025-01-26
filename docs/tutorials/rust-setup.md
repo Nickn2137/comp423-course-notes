@@ -39,22 +39,28 @@ git init
 
 (C) Create a `.devcontainer` directory in the root of your project with the following file inside of this "hidden" configuration directory: `devcontainer/devcontainer.json`
 
+The `devcontainer.json` file defines the configuration for your development environment. Here, we're specifying the following:
+
 * **`name`**: A descriptive name for your dev container.
 
 * **`image`**: The Docker image to use. For this tutorial, we'll be using a base image of Rust from [Microsoft](https://hub.docker.com/r/microsoft/vscode-devcontainers).
 
-* **`extensions`**: A list of Visual Studio Code extensions to install in the Dev Container. These extensions enhance your development experience. For Rust, we include the `rust-analyzer extension`, which provides powerful features like code completion, inline documentation, and real-time diagnostics.
+* **`customizations.vscode.extensions`**:  list of Visual Studio Code extensions to be installed in the development container. Extensions enhance your productivity by adding features specific to your development language or tools. For Rust, the `rust-analyzer` extension is essential, providing capabilities such as code completion, inline documentation, and real-time diagnostics.
 
-* **`settings`**: VS Code-specific settings to customize your workspace. In this case, the `rust-analyzer.cargo.autoReload` setting is enabled, which ensures that the Rust Analyzer automatically reloads the Cargo workspace when files are added, removed, or updated.
+* **`customizations.vscode.settings`**:  Visual Studio Code-specific settings for customizing your workspace environment inside the container. In this example, the `rust-analyzer.cargo.autoReload` setting is enabled to ensure that the Rust Analyzer automatically reloads the Cargo workspace when files are added, removed, or updated.
 ``` json
 {
   "name": "Rust Dev Container",
   "image": "mcr.microsoft.com/devcontainers/rust:latest",
-  "extensions": [
-    "rust-lang.rust-analyzer"
-  ],
-  "settings": {
-    "rust-analyzer.cargo.autoReload": true
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ],
+      "settings": {
+        "rust-analyzer.cargo.autoReload": true
+      }
+    }
   }
 }
 ```
